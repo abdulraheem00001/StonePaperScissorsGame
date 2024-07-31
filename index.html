@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StonePaperScissorsGame.css">
+    <link rel="stylesheet" href="responsivness.css">
+    <title>Stone Paper Scissors Game</title>
+</head>
+
+<body>
+    <header>Stone Paper Scissors Game</header>
+    <main>
+        <div class="optionContainer">
+            <img src="images/stone.png" alt="stone hand sign" class="options" id="stone">
+            <img src="images/paper.png" alt="paper hand sign" class="options" id="paper">
+            <img src="images/scissors.png" alt="scissors hand sign" class="options" id="scissors">
+        </div>
+        <div class="scoreBoard">
+            <div class="playerScoreBoard">
+                <h1 id="playerScore">0</h1>
+                <h2>You</h2>
+            </div>
+            <div class="computerScoreBoard">
+                <h1 id="computerScore">0</h1>
+                <h2>Computer</h2>
+            </div>
+        </div>
+        <div class="displayContainer">
+            <button id="reset">Reset Game</button><br>
+            <p class="display">select a option</p>
+        </div>
+    </main>
+
+    <script src="StonePaperScissorsGame.js"></script>
+</body>
+
+</html>

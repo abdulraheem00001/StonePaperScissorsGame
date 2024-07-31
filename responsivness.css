@@ -1,0 +1,34 @@
+@media screen and (max-width: 800px) {
+    #stone {
+        margin-left: 0px;
+    }
+
+    #paper,
+    #scissors {
+        margin-left: 5px;
+    }
+
+    .displayContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+    .display,#reset{
+        width: 100%;
+        text-align: center;
+    }
+    .display{
+        width:initial;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .options{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .options{
+        height: 100px;
+    }
+}
